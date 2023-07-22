@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.sap.routing1.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page title="Home">
+ <content>
+<Button text="Display Invalid Target" press=".onDisplayInvalidTarget" class="sapUiTinyMarginEnd"/>
+<Button text="Navigate to valid route" press=".onNavToValidRoute" class="sapUiTinyMarginEnd"/>
+        </content>
+    </Page>
+</mvc:View>

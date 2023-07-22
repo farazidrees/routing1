@@ -1,0 +1,12 @@
+<mvc:View controllerName="com.sap.routing1.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page title="Not Found" showNavButton="true" navButtonPress="onNavBack">
+
+    <VBox >
+    <Text text="{i18n>NotFound.text}"></Text>
+    <Text text="{i18n>NotFound.description}"></Text>
+        </VBox>
+        <content />
+    </Page>
+</mvc:View>

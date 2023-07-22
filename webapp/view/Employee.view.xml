@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.sap.routing1.controller.Employee"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page title="Employee">
+        <content>
+            <VBox >
+                <Label text="Employee:"></Label>
+                <Text text="{zjsonModel>firstName}"></Text>
+                <Text text="{zjsonModel>lastName}"></Text>
+                <Button text="Show Resume" press=".onShowResume"></Button>
+            </VBox>
+
+        </content>
+    </Page>
+</mvc:View>

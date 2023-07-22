@@ -1,0 +1,27 @@
+<mvc:View controllerName="com.sap.routing1.controller.Resume"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page title="Resume: {zjsonModel>firstName} {zjsonModel>lastName}" showNavButton="true" navButtonPress=".onNavBack">
+        <content>
+
+            <IconTabBar id="iconTabBar" headerBackgroundDesign="Transparent" class="sapUiResponsiveContentPadding" 
+            select=".onTabSelect" selectedKey="{zviewModel>/selectedTabKey}">
+                <items>
+                    <IconTabFilter id="infoTab" text="Information" key="Info">
+                        <Text text="Information"></Text>
+                    </IconTabFilter>
+                    <IconTabFilter id="projectTab" text="Projects" key="Projects">
+                        <Text text="Projects"></Text>
+                    </IconTabFilter>
+                    <IconTabFilter id="hobbiesTab" text="Hobbies" key="Hobbies">
+                        <Text text="Hobbies"></Text>
+                    </IconTabFilter>
+                    <IconTabFilter id="notesTab" text="Notes" key="Notes">
+                        <Text text="Notes"></Text>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+
+        </content>
+    </Page>
+</mvc:View>

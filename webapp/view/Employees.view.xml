@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.sap.routing1.controller.Employees"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page title="Employees">
+ <content>
+<Button text="Navigate with manadatory params" press=".onNavToWithMandatoryParams" class="sapUiTinyMarginEnd"/>
+        </content>
+    </Page>
+</mvc:View>
